@@ -20,17 +20,29 @@ class _ResultPageState extends State<ResultPage> {
 
   @override
   void initState(){
-    if(marks<20){
+    if(marks<7){
       image = images[2];
-      message = "You should Try Hard..\n" + "You Scored $marks";
+      message = "You should Try Hard..\n" + "You Scored $marks\n" + "The predicted Course for you: Introduction to Python: Absolute Beginner";
+    }
+    else if(marks < 14){
+      image = images[1];
+      message = "You can Do Better..\n" + "You Scored $marks\n" + "The predicted Course for you: Introduction to Computer Science and Programming Using Python";
+    }
+    else if(marks < 21){
+      image = images[1];
+      message = "You can Do Better..\n" + "You Scored $marks\n" + "The predicted Course for you: Python and Django Full Stack Web Developer Bootcamp";
+    }
+    else if(marks < 28){
+      image = images[1];
+      message = "You can Do Better..\n" + "You Scored $marks\n" + "The predicted Course for you: Python I: Essentials";
     }
     else if(marks < 35){
       image = images[1];
-      message = "You can Do Better..\n" + "You Scored $marks";
+      message = "You can Do Better..\n" + "You Scored $marks\n" + "The predicted Course for you: Georgia Tech: Introduction to Computing in Python";
     }
     else{
       image = images[0];
-      message = "Congrats! You did very well!\n" + "You Scored $marks";
+      message = "Congrats! You did very well!\n" + "You Scored $marks" + "The predicted Course for you: AI Programming with Python";
     }
     super.initState();
   }
