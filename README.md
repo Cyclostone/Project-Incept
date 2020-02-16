@@ -3,6 +3,7 @@
 This Flutter Project is an intuitive Quiz Application (especially for Python right now), which uses json API decoding to further parse data effortlessly to the application and works as a basis for the Quiz App Questions, where UI and Navigation is fairly Simple and coherent in flow, And further integration on custom-made TF lite model with flutter App is in the progress.
 
 ![Home Page](demo/demo_homepage.gif)
+![Quiz Page](demo/demo_quizpage.gif)
 
 ## Getting Started
 
