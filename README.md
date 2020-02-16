@@ -1,6 +1,8 @@
 # Incept
 
-This Flutter Project is an intuitive Quiz Application (especially for Python right now), which uses json API decoding to further parse data effortlessly to the application and works as a basis for the Quiz App Questions, where UI and Navigation is fairly Simple and coherent in flow, And further integration on custom-made TF lite model with flutter App is in the progress.  
+This Flutter Project is an intuitive Quiz Application (especially for Python right now), which uses json API decoding to further parse data effortlessly to the application and works as a basis for the Quiz App Questions, where UI and Navigation is fairly Simple and coherent in flow, And further integration on custom-made TF lite model with flutter App is in the progress.
+
+![Home Page] (demo/WhatsApp Video 2020-02-16 at 2.26.51 PM.mp4)
 
 ## Getting Started
 
